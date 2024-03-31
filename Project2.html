@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizInn</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1 class="text-center">QuizInn</h1>
+        </div>
+        <div id="login">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="loginBtn">Login</button>
+        </div>
+
+        <div id="themeSwitch">
+            <button id="switchBtn"><i class="fas fa-sun"></i></button>
+        </div>
+
+        <div id="quizzes" style="display: none;">
+            <h1>Choose a Quiz</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="quiz1.jpg" alt="Quiz 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz 1</h5>
+                            <button id="quiz1" class="btn btn-primary">Start Quiz</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="quiz2.jpg" alt="Quiz 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz 2</h5>
+                            <button id="quiz2" class="btn btn-primary">Start Quiz</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="quiz3.jpg" alt="Quiz 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz 3</h5>
+                            <button id="quiz3" class="btn btn-primary">Start Quiz</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

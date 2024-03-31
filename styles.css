@@ -1,0 +1,54 @@
+body 
+{
+    background-color: white;
+    color: black;
+    background-image: url('light-mode-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.dark 
+{
+    background-color: black;
+    color: white;
+    background-image: url('dark-mode-image.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#login 
+{
+    position: absolute;
+    top: 10;
+    right: 0;
+}
+
+#logoutBtn 
+{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+#quizzes 
+{
+    /* Styles for the quizzes go here */
+}
+
+.quiz-card 
+{
+    width: 5rem; /* Adjust this value to change the width of the cards */
+}
+
+
+
+#login.dark 
+{
+    /* Dark mode styles for the login go here */
+}
+
+#quizzes.dark 
+{
+    /* Dark mode styles for the quizzes go here */
+}
