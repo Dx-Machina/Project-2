@@ -1,0 +1,15 @@
+1. The website starts with a login screen. The user can click the 'Login' button to start the quiz.
+
+2. When the 'Login' button is clicked, an event listener function is triggered. This function hides the login screen and shows the quiz grid. It also logs a message to the console saying 'Logged in'.
+
+3. The function also creates a 'Logout' button. This button is added to the body of the document.
+
+4. The 'Logout' button also has an event listener function. When this button is clicked, it hides the quiz grid and shows the login screen again. It also removes the 'Logout' button from the document.
+
+5. The function also adds event listeners to the quiz cards. When a quiz card is clicked, it will start the corresponding quiz.
+
+6. The quizzes are multiple choice. The user can select an answer by clicking on one of the choices. The user's score is updated based on their answers.
+
+7. When the quiz is over, the user can see their final score. They can then click the 'Submit Result' button to submit their score.
+
+8. The website also supports dark mode. The color of the text changes based on the color scheme of the user's device.

@@ -11,44 +11,70 @@ body.dark
 {
     background-color: black;
     color: white;
-    background-image: url('dark-mode-image.webp');
+    background-image: url('dark-mode-image.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+#switchBtn {
+    color: black; /* Change this to a color that contrasts with the background */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* This changes the card's background color in dark mode */
+body.dark .quiz-card, body.dark .question-card 
+{
+    background-color: rgb(50, 50, 50);
 }
 
 #login 
 {
     position: absolute;
-    top: 10;
-    right: 0;
+    top: 10px;
+    right: 60px;
 }
 
-#logoutBtn 
+#logoutBtn
 {
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 60px;
+}
+#quizDiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.quiz-card
+{
+    flex: 1 0 20rem; /* This makes the cards flexible and sets their base width to 20rem */
+    max-width: 20rem; /* This prevents the cards from growing too large */
 }
 
-#quizzes 
+.question-card 
 {
-    /* Styles for the quizzes go here */
-}
-
-.quiz-card 
-{
-    width: 5rem; /* Adjust this value to change the width of the cards */
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
 
 
-
-#login.dark 
+#submitResult
 {
-    /* Dark mode styles for the login go here */
-}
-
-#quizzes.dark 
-{
-    /* Dark mode styles for the quizzes go here */
+    position:initial;
+    top: 10px;
+    right: 120px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
